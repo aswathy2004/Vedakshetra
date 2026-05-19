@@ -139,3 +139,79 @@ Clone Repository
 
 ```bash
 git clone https://github.com/aswathy2004/vedakshetra.git
+
+
+Move into project folder:
+
+cd vedakshetra
+
+Create virtual environment:
+
+python -m venv venv
+
+Activate environment:
+
+Windows:
+
+venv\Scripts\activate
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run migrations:
+
+python manage.py makemigrations
+python manage.py migrate
+
+Run server:
+
+python manage.py runserver
+
+Open browser:
+
+http://127.0.0.1:8000
+📸 System Workflow
+Admin
+
+Login → Add District → Add Location → Verify Hospitals → Generate Reports → Monitor Dashboard
+
+Hospital
+
+Register → Login → Add Package → Add Service → Manage Bookings → View Payments → View Feedback
+
+User
+
+Register → Login → Search Hospital → View Package → Book Package → Payment → Feedback
+
+🎯 Objectives
+Provide online healthcare package booking
+Improve hospital service management
+Reduce manual work
+Enable centralized monitoring
+Improve transparency between hospitals and users
+
+🔮 Future Enhancements
+Online appointment scheduling
+AI healthcare recommendations
+SMS / Email notifications
+Payment gateway integration
+Mobile application support
+Medical history management
+Real-time analytics dashboard
+
+👨‍🎓 Academic Information
+
+Project Title: Vedakshetra – Healthcare Service Management System
+
+Developed For: Final Year Project
+
+Course: BCA 
+
+Framework: Django
+
+📄 License
+
+This project is developed for educational and academic purposes.
+
+⭐ If you like this project, give it a star on GitHub!
