@@ -138,4 +138,4 @@ Installation
 Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/vedakshetra.git
+git clone https://github.com/aswathy2004/vedakshetra.git
